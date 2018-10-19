@@ -2,7 +2,10 @@
   "name": "client",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
+  "engines": {
+    "node": "8.11.1"
+  },
   "scripts": {
     "dev": "node server.js",
     "client": "node scripts/start-client.js",
